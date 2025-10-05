@@ -8,7 +8,6 @@ const PORT = 4001;
 
 const BACKEND_URL = process.env.BACKEND_URL || "http://127.0.0.1:6001/api";
 
-
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("views"));
