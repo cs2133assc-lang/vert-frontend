@@ -4,9 +4,9 @@ import fetch from "node-fetch";
 import bodyParser from "body-parser";
 
 const app = express();
-const PORT = 3000;
+const PORT = 4001;
 
-const BACKEND_URL = process.env.BACKEND_URL || "http://127.0.0.1:5000/api";
+const BACKEND_URL = process.env.BACKEND_URL || "http://127.0.0.1:6001/api";
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
